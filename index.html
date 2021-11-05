@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Education</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar"
+                    aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">DuckEdu</a>
+            </div>
+            <div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#service">Chức năng</a></li>
+                    <li><a href="#feedback">Phản hồi</a></li>
+                    <li><a href="#featured-member">Thành viên nổi bật</a></li>
+                    <li><a href="#partner">Đối tác</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <div class="jumbotron text-center">
+        <h1>Chào mừng bạn đến với <b>Duck Education</b> </h1>
+        <p>Đơn giản - Nhanh chóng - Chính xác</p>
+        <img src="./image/birds.png" alt="">
+
+        <form action="" class="form-inline">
+            <div class="input-group">
+                <input type="text" size="50" class="form-control" placeholder="Tìm kiếm" required="">
+                <div class="input-group-btn">
+                    <button class="btn btn-primary">Tìm kiếm</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="container">
+        <div id="about" class="row">
+            <div class="description col-lg-7">
+                <h3>Chúng tôi tin tưởng vào việc cải thiện việc quản lý trường học thông qua dịch vụ và công nghệ, đồng
+                    thời chúng tôi không bao giờ đánh mất mục tiêu của mình - giúp các trường học, ban giám hiệu, giáo
+                    viên và gia đình giải quyết những thách thức riêng mà họ phải đối mặt
+                </h3>
+                <button class="btn btn-primary">Xem ngay</button>
+            </div>
+
+            <div class="img-content col-lg-5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSOijV7Pzi3rIEyPO5ha4KL39X3hv28gm4w&amp;usqp=CAU"
+                    alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICE -->
+    <div id="service" class="text-center container-fluid">
+        <h2>chức năng</h2>
+        <h4>Lựa chọn ngay</h4>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench"></span>
+                <h4>Quản lý</h4>
+                <p>Quản lý thông tin về sinh viên...</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-calendar"></span>
+                <h4>Thời khóa biểu</h4>
+                <p>Truy cập thời khóa biểu...</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-list-alt"></span>
+                <h4>Bảng điểm</h4>
+                <p>Truy cập bảng điểm...</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-leaf"></span>
+                <h4>Sức khỏe</h4>
+                <p>Khai báo y tế..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-certificate"></span>
+                <h4>Dịch vụ 1 cửa</h4>
+                <p>Các thủ tục...</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-edit"></span>
+                <h4>Phản hồi</h4>
+                <p>Truy cập báo cáo..</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MASSAGE -->
+    <div id="massage" class="text-center container">
+        <h2>Thông điệp</h2>
+        <h3>Mục tiêu của chúng tôi là nâng cao trải nghiệm giáo dục cho bạn và học sinh của bạn bằng cách giữ cho bạn
+            kết nối với trường học của học sinh, bằng cách ứng dụng công nghệ và tiến bộ vào giáo dục.
+        </h3>
+        <button class="btn btn-primary">Tìm hiểu</button>
+    </div>
+
+    <!-- FEEDBACK -->
+    <div id="feedback" class="bg-primary">
+        <div class="row text-center">
+            <h1>Phản hồi</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p>Đây là năm học thứ ba của chúng tôi sử dụng Quản lý học sinh Duck education . Sự tích hợp tổng thể
+                    của nó đã giúp tiết kiệm thời gian cho quản lý.. Các giáoviên của chúng tôi yêu thích các chức năng
+                    quản lý lớp học và giao tiếp trong Duck education, cách
+                    tính điểm và chức năng điểm danh dễ dàng sử dụng và nhanh chóng. Cuối cùng,chúng tôi cảm thấy đội
+                    ngũ rất sáng tạo để làm ra dự án hoàn thiện như thế này , giúp ích rất nhiều cho việc quản lý học
+                    sinh. Đây là một giải pháp quản lý trường học toàn diện và sáng tạo nhất. Kịp các công việc tuyệt
+                    vời!</p><br><br>
+                <p>– <strong>Trung Đức,</strong> Nam Từ Liêm, Hà Nội</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MEMBER -->
+    <div id="featured-member">
+        <div class="container">
+            <div class=" container">
+                <div class=" row text-center">
+                    <h2>Thành viên nổi bật</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="member">
+                        <img src="./image/images.png" alt="">
+                        <div class="member-info">
+                            <h3>Ngọc Trinh</h3>
+                            <p>
+                                Ngọc Trinh là 1 sinh viên tiêu biểu trong các sinh viên đã sử dụng ứng dụng Duck
+                                education. Ứng dụng giúp bạn ấy có thể quản lí tốt thời gian của mình và tốt nghiệp sớm
+                                1 năm so với hệ đào tạo đại học
+                            </p>
+                            <button class="btn btn-primary">xem thông tin</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="member">
+                        <img src="./image/images.png" alt="">
+                        <div class="member-info">
+                            <h3>Ngọc Trinh</h3>
+                            <p>
+                                Ngọc Trinh là 1 sinh viên tiêu biểu trong các sinh viên đã sử dụng ứng dụng Duck
+                                education. Ứng dụng giúp bạn ấy có thể quản lí tốt thời gian của mình và tốt nghiệp sớm
+                                1 năm so với hệ đào tạo đại học
+                            </p>
+                            <button class="btn btn-primary">xem thông tin</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="member">
+                        <img src="./image/images.png" alt="">
+                        <div class="member-info">
+                            <h3>Ngọc Trinh</h3>
+                            <p>
+                                Ngọc Trinh là 1 sinh viên tiêu biểu trong các sinh viên đã sử dụng ứng dụng Duck
+                                education. Ứng dụng giúp bạn ấy có thể quản lí tốt thời gian của mình và tốt nghiệp sớm
+                                1 năm so với hệ đào tạo đại học
+                            </p>
+                            <button class="btn btn-primary">xem thông tin</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PARTNER SLIDER -->
+    <div id="partner" class="container-fluid text-center">
+        <h2>Đối tác</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- thiết lập các carousel -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+            </ol>
+
+            <!-- thông tin của các carousel -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="https://i.ytimg.com/vi/Jf85bs9NFCU/maxresdefault.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://i.ytimg.com/vi/h-n2jzqAJY0/maxresdefault.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://thituyensinh.ican.vn/wp-content/uploads/2020/11/BKA_Thumb-demo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+        <div class="container text-center">
+            <h2>Liên Hệ</h2>
+            <div class="col-sm-4">
+
+                <span class="glyphicon glyphicon-map-marker"></span>
+                <h4>Địa chỉ</h4>
+                <p>Hà Nội</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-envelope"></span>
+                <h4>Email</h4>
+                <p>cp.star.com@gmail.com</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-earphone"></span>
+                <h4>Phone </h4>
+                <p>033 100 234 / 086 118 3452 </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="image">
+        <img src="./image/realistic-hand-drawn-back-school-background_52683-42951.jpg" alt="">
+    </div>
+    <div class="footer text-center">
+        <p>trở lại trường học với<a href=""> Duck edication</a></p>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

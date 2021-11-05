@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* NAVBAR */
+.navbar {
+    background-color: #3c72c3;
+}
+
+.navbar .icon-bar{
+    color:#fff !important;
+}
+
+.navbar a{
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover{
+    background-color: #fff !important;
+    color:#3c72c3 !important;
+}
+
+
+
+
+
+/* HOME */
+.jumbotron{
+    margin-top: 50px;
+    color: #fff;
+    background-image: url(https://www.dporganizer.com/wp-content/uploads/2018/02/15145454/education-background.jpg);
+}
+
+.jumbotron img{
+    width: 60%;
+    padding: 64px 0;
+}
+
+
+
+
+
+/* ABOUT */
+#about{
+    padding: 32px 0;
+}
+
+#about .about{
+    height: 400px;
+}
+#about .btn{
+    border-radius: 30px;
+    margin: 32px 0;
+    color: #fff;
+}
+
+#about .img-content img{
+    width: 70%;
+    max-width: 250px;
+}
+
+
+
+/* SERVICE */
+#service{
+    padding-top: 64px;
+    background-color: #f6f6f6 ;
+}
+
+#service .col-sm-4{
+    padding: 32px 0;
+}
+
+#service .col-sm-4 .glyphicon{
+    font-size: 100px;
+}
+
+#service .col-sm-4 h4{
+    margin: 24px;
+}
+
+
+
+/* MASSAGE */
+
+#massage{
+    padding: 64px 0;
+}
+
+#massage h2{
+    color: #b3559d;
+    font-weight: 700;
+}
+
+#massage h3{
+    padding: 32px 0;
+}
+
+#massage .btn{
+    border-radius: 30px;
+    color: #fff;
+}
+
+
+
+
+/* FEEDBACK */
+#feedback{
+    padding: 64px 0;
+}
+
+#feedback .container{
+    max-width: 600px;
+    background-color: #f6f6f6;
+    color: #666666;
+    padding: 48px ;
+    border-radius: 15px;
+}
+
+#feedback .row h1{
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+
+
+
+/* FEATURED MEMBER */
+#featured-member{
+    background-color: #f6f6f6;
+    padding-bottom: 64px;
+}
+
+#featured-member .col-sm-4{
+    padding-bottom: 32px;
+}
+
+#featured-member .container h2{
+    padding: 32px 0;
+}
+
+#featured-member .member:hover{
+    box-shadow: 4px 4px 4px 4px #3c72c38e;
+}
+
+#featured-member .member img{
+    margin: auto;
+    width: 98%;
+    max-width: 450px;
+}
+
+#featured-member .member{
+    margin: auto;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#featured-member .member .member-info{
+    padding: 24px;
+}
+
+#featured-member .member h3{
+    color: #b3559d;
+    font-weight: 600;
+}
+
+#featured-member .member p{
+    color: #666666;
+    padding: 12px 0;
+}
+
+#featured-member .member .btn{
+    border-radius: 30px;
+}
+
+
+
+
+/* PARTNER SLIDER */
+#partner {
+    color: #b3559d;
+    padding: 64px 0;
+}
+
+
+.carousel-inner img{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+
+
+/* CONTACT */
+#contact .glyphicon{
+    font-size: 80px;
+}
+#contact {
+    background-color: #f6f6f6;
+    padding-bottom: 64px;
+}
+
+#contact h2{
+    padding: 32px 0;
+}
+
+#contact .col-sm-4 h4{
+    margin: 24px;
+}
+
+
+/* FOOTER */
+.image img{
+    width: 100%;
+}
+
+.footer {
+    background-color: #f6f6f6;
+}
+
+.footer p{
+    padding: 48px 0;
+}
+
